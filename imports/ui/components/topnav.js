@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import AccountsUIWrapper from './Login.js';
+
 import {
     Alignment,
     Button,
@@ -13,21 +14,27 @@ import {
 } from "@blueprintjs/core";
 
 
+
 class Topnav extends React.Component {
   render() {
     return (
+        <div>
+             
+             
 <Navbar>
     <Navbar.Group align={Alignment.LEFT}>
-        <Navbar.Heading>Sustainable Action</Navbar.Heading>
-        
+    
+    <img src="https://static.123-reg.co.uk/library/images/v3/sprite/logo.svg"/>
         </Navbar.Group>
+       
         <Navbar.Group align={Alignment.LEFT}>
         
         <Navbar.Divider />
         
-        <AccountsUIWrapper/>
+        <AccountsUIWrapper />
     </Navbar.Group>
 </Navbar>
+</div>
     );
   }
 }

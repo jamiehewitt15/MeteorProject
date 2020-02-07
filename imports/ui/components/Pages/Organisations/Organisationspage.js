@@ -11,7 +11,7 @@ class Opportunities extends Component {
       <div >
 		
 		<div style={{margin: 50}}>
-
+     
 			<SortTable />
 
 		</div>
